@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "clash";
+    src: url(font/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf);
+}
+
+body{
+    font-family: 'clash', sans-serif;
+}
+
+/* #hero h1{
+    width: 30ch;
+} */
