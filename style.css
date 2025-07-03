@@ -10,3 +10,22 @@ body{
 /* #hero h1{
     width: 30ch;
 } */
+/* text-center font-semibold text-[20px]  */
+
+#features{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+/* border w-[50%] mx-auto p-4 */
+
+#fbox{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px 50px;
+    
+}
