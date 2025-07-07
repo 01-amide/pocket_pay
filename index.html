@@ -99,7 +99,7 @@
 
         <section class="relative ">
             <div class="bg-[#FACA52] h-[144px] w-[100%] absolute"></div>
-            <div class="ps-16 overflow-hidden bg-[#E6E6FA] flex gap-5 items-center h-[144px] -rotate-1 border -mx-2">
+            <div class="ps-[100px] overflow-hidden bg-[#E6E6FA] flex gap-5 items-center h-[144px] -rotate-1 border -mx-2">
                 <p class="w-[15ch] font-[400] text-[32px] text-center shrink-0">In corpoation with over 100 companies</p>
                 <div class="font-medium flex gap-[30px] text-[25px]">
                     <div class="w-[160px] h-[60px] border flex justify-center items-center  bg-white">facebook</div>
@@ -111,27 +111,63 @@
             </div>
         </section>
 
-        <section class="px-20 bg-[#FFE5B4] py-10">
+        <section class="px-[100px] bg-[#FFE5B4] py-10">
             <h2>How PocketPal Works</h2>
             <p class="w-[63ch]">
                 PocketPal simplifies the process and makes it easy for you to achieve your goals. Just sign up, set your savings target, and let our automated tools do the rest. You can earn interest on your money, track your progress, and get helpful reminders and tips to stay on track. It’s that simple!
             </p>
 
-            <div class="relative z-10 grid grid-cols-[45%_55%] grid-rows-2 items-center gap-10">
+            <!-- <div class="relative z-10 grid grid-cols-[45%_55%] grid-rows-2 items-center gap-10">
                 <div class=" row-span-2 flex items-center justify-center border w-[420px] h-[400px] bg-[#FFC683] rounded-[25px] mx-auto"></div>
-                <div class="absolute bg-[#D1E5DF] left-[50px] top-[135px] border w-[420px] h-[400px] z-[-10] rounded-[25px]"></div>
+                <div class="absolute bg-[#D1E5DF] left-[42px] top-[135px] border w-[420px] h-[400px] z-[-10] rounded-[25px]"></div>
                     
                 <div class="w-[500px] h-[300px] border bg-[#FBADA5] rounded-[25px] mx-auto">2</div>
-                <div class="absolute bg-[#D1E5DF] right-[1px] top-[15px] border w-[500px] h-[300px] z-[-10] rounded-[25px]"></div>
+                <div class="absolute bg-[#D1E5DF] right-[0px] top-[15px] border w-[500px] h-[300px] z-[-10] rounded-[25px]"></div>
                 
 
                 <div class="col-start-2 w-[500px] h-[300px] border bg-[#FBADA5] rounded-[25px] mx-auto">3</div>
                 <div class="absolute bg-[#D1E5DF] right-[1px] bottom-[-15px] border w-[500px] h-[300px] z-[-10] rounded-[25px]"></div>
+            </div> -->
+
+            <div class="relative flex flex-col flex-wrap h-[680px] justify-center font-medium">
+                <div class="z-[10] border w-[420px] h-[400px] bg-[#FFC683] rounded-[25px] mx-auto flex items-center gap-3 py-[60px] px-[20px]">
+                    <img src="resources/transactions.svg" alt="">
+                    <div>
+                        Track your spending and see your account activity with the transaction screen. View your transactions by date, category, or amount and easily monitor your spending patterns.
+                        With our intuitive design and user-friendly interface, you can quickly and easily stay on top of your financial activity
+                    </div>
+                </div>
+                <div class="absolute bg-[#D1E5DF] left-[45px] top-[150px] border w-[420px] h-[400px] rounded-[25px]"></div>
+
+
+                <div class="z-10 w-[500px] h-[300px] border bg-[#FBADA5] rounded-[25px] mx-auto my-7 py-[15px] px-[40px] flex">
+                    <img src="resources/budgets.svg" alt="">
+
+                    <div>
+                        Stay on top of your finances with our budgeting screen.
+                        Easily set and track your spending goals for different categories and see your progress with a simple chart. Whether you're saving for a big purchase or trying to cur back on expenses,
+                        our budgeting screen makes it easy to stay on track 
+                    </div>
+                </div>
+                <div class="absolute bg-[#DCD69F] right-[30px] top-[50px] border w-[500px] h-[300px] rounded-[25px]"></div>
+
+
+                <div class="z-10 w-[500px] h-[300px] border bg-[#FBADA5] rounded-[25px] mx-auto flex items-center py-[20px] px-[20px]">
+                    <div>
+                        Never miss a beat with the alert screen. Stay informed on all your activities with real-time alerts for important events,
+                        such as when you've hit a savings goal, received a payment, or have low balance. You can customize your alerts to suit your needs,
+                        so you can stay on top of your finances with ease
+                    </div>
+
+                    <img src="resources/notifications.svg" alt="">
+                </div>
+                <div class="absolute bg-[#EFF1F7] right-[45px] bottom-[-2px] border w-[500px] h-[300px] rounded-[25px]"></div>
+                
             </div>
         </section>
 
         <section class="bg-[#FCFAED] py-20">
-            <div class="flex justify-between px-20 gap-[100px] items-center">
+            <div class="flex justify-between px-[100px] gap-[100px] items-center">
                 <h2 class=" w-[18ch] shrink-0" >Enhanced financial journey at every step</h2>
                 <p class="font-medium text-[15px]">
                     Our platform provides personalized financial guidance, tailored notifications, optimized security measures,
@@ -220,5 +256,104 @@
         </section>
 
     </main>
+
+    
+
+    <footer>
+        <div class="w-[75%] bg-[#F4A460] h-[350px] mx-auto border border-black rounded-[20px] text-black flex justify-around ">
+            <div class="flex flex-col justify-center gap-[40px]">
+            <h2 class="w-[15ch]">Available Now on Each Platform!</h2>
+            <div class="flex gap-3 mb-10" id="">
+                <div class="border-1 w-[140px] bg-[#fbaca5] flex items-center">
+                    <img class="p-[3px]" src="resources/apple.svg" alt="">
+
+                    <div>
+                        <p class="text-[8px] text-center">Download on the</p>
+                        <h4>App Store</h4>
+                    </div>
+                </div>
+
+                <div class="border-1 w-[140px] bg-[#cefe1f] flex items-center">
+                    <img class="p-[2px]" src="resources/playstore.svg" alt="">
+
+                    <div>
+                        <p class="text-[8px] text-start">GET IT ON</p>
+                        <h4>Play Store</h4>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="flex flex-row items-end"> 
+                <img class="h-[200px]" src="resources/iphone account.svg" alt="">
+                <img src="resources/iphone login.svg" alt="">
+            </div>
+        </div>
+
+        <div class="flex gap-[150px] ps-[100px]">
+            <div class="font-semibold text-white">
+                <h3>PocketPal</h3>
+            </div>
+
+            <div>
+                <ul>
+                    <a href="#"><li class="text-[20px]">Support</li></a>
+                    <a href="#"><li>Customer Login</li></a>
+                    <a href="#"><li>LinkedIn</li></a>
+                    <a href="#"><li>Facebook</li></a>
+                    <a href="#"><li>Beta Testing</li></a>
+                    <a href="#"><li>Waitlist</li></a>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <a href="#"><li class="text-[20px]">Why PocketPal?</li></a>
+                    <a href="#"><li>Our Technology</li></a>
+                    <a href="#"><li>APi</li></a>
+                    <a href="#"><li>Diversity & inclusion</li></a>
+                    <a href="#"><li>Partners</li></a>
+                    <a href="#"><li>AI Powered</li></a>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <a href="#"><li class="text-[20px]">Company</li></a>
+                    <a href="#"><li>Blog</li></a>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Diversity</li></a>
+                    <a href="#"><li>Our Mission</li></a>
+                    <a href="#"><li>Careers</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="border-2 w-[100%] mb-[20px] mt-[40px]"></div>
+
+        <div class="flex justify-between px-[100px]">
+            <div>2022 PocketPal All Rights Reserved</div>
+            <div class="flex gap-3" id="socials">
+                <div >
+                    <svg width="20" height="20" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.9354 4.8923C10.9891 5.16994 11.0275 5.44757 11.0275 5.80771C11.0275 8.95167 8.87106 11.1802 5.625 11.1802C2.51707 11.1802 0 8.71907 0 5.68018C0 2.64128 2.51707 0.180176 5.625 0.180176C7.14445 0.180176 8.41063 0.720408 9.3929 1.62083L7.86577 3.05398C7.45137 2.6638 6.72237 2.2061 5.625 2.2061C3.70652 2.2061 2.14102 3.7593 2.14102 5.68018C2.14102 7.60105 3.70652 9.15426 5.625 9.15426C7.85042 9.15426 8.6869 7.58604 8.81733 6.78315H5.625V4.89227H10.9354V4.8923ZM16.3672 5.07669V3.48018H14.7265V5.07669H13.0937V6.68089H14.7265V8.27741H16.3672V6.68089H18V5.07669H16.3672Z" fill="#1E1E1E"/>
+                    </svg>
+                </div>
+
+                <div >
+                    <svg width="20" height="20" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.41022 9.18018L8.87692 6.28455H5.95887V4.40549C5.95887 3.6133 6.36649 2.84111 7.6734 2.84111H9V0.375801C9 0.375801 7.79615 0.180176 6.64514 0.180176C4.24203 0.180176 2.67125 1.56705 2.67125 4.07768V6.28455H0V9.18018H2.67125V16.1802H5.95887V9.18018H8.41022Z" fill="#1E1E1E"/>
+                    </svg>
+                </div>
+
+                <div>
+                    <svg width="20" height="20" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.9442 4.16766C17.9569 4.34265 17.9569 4.51768 17.9569 4.69267C17.9569 10.0301 13.8326 16.1802 6.29444 16.1802C3.97209 16.1802 1.81473 15.5176 0 14.3677C0.329962 14.4052 0.64719 14.4177 0.989848 14.4177C2.90607 14.4177 4.67006 13.7802 6.0787 12.6927C4.27666 12.6552 2.7665 11.4927 2.24618 9.89267C2.50001 9.93015 2.7538 9.95516 3.02032 9.95516C3.38833 9.95516 3.75638 9.90514 4.099 9.81768C2.22083 9.44265 0.812152 7.81767 0.812152 5.85517V5.80519C1.35782 6.10519 1.99239 6.29269 2.66493 6.31766C1.56087 5.59264 0.837542 4.35516 0.837542 2.95515C0.837542 2.20516 1.04055 1.51766 1.3959 0.917657C3.41369 3.36766 6.4467 4.96763 9.8477 5.14266C9.78426 4.84266 9.74617 4.53019 9.74617 4.21768C9.74617 1.99266 11.5736 0.180176 13.8452 0.180176C15.0254 0.180176 16.0914 0.667675 16.8401 1.45518C17.7665 1.28018 18.6548 0.942667 19.4416 0.480178C19.137 1.4177 18.4898 2.2052 17.6396 2.70516C18.4645 2.61771 19.264 2.39266 20 2.08019C19.4417 2.88016 18.7437 3.59263 17.9442 4.16766Z" fill="#1E1E1E"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
