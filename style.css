@@ -19,7 +19,8 @@ body{
 #fbox{
     border: 1px solid black;
     border-radius: 20px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     margin: 0 auto;
     padding: 15px 50px;
     
@@ -70,4 +71,16 @@ footer ul{
     height: 30px;
     border-radius: 100%;
     background-color: white;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px){
+    h5{
+        padding-left: 0;
+        text-align: left;
+    }
+    #faq li{
+        gap: 20px;
+        margin-bottom: 40px;
+    }
 }

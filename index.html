@@ -8,13 +8,13 @@
     <title>Document</title>
 </head>
 <body class="bg-[#87CEEB] overflow-x-hidden">
-    <nav class="flex justify-around py-4 items-center" id>
+    <nav class="flex justify-between md:justify-around py-4 items-center px-4" id>
         <div class="font-semibold">
             <h3>PocketPal</h3>
         </div>
 
-        <div>
-            <ul class="flex gap-[50px] font-[400]">
+        <div class="hidden md:block">
+            <ul class="hidden md:flex gap-[50px] font-[400]">
                 <li>Home</li>
                 <li>About</li>
                 <li>Testimonials</li>
@@ -29,34 +29,34 @@
     </nav>
 
     <main>
-        <section class="flex-row items-center text-center relative mt-7" id="hero">
+        <section class="flex-row items-center text-center relative mt-7 px-4" id="hero">
 
             <!-- floating images -->
-            <div class="absolute right-[200px] top-[5px]">
+            <div class="hidden md:block absolute right-[200px] top-[5px]">
                 <svg width="42" height="51" viewBox="0 0 42 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2 25.1202C12.6214 25.1202 21.2319 14.4019 21.2319 1.18018C21.2319 14.4019 29.8422 25.1202 40.4636 25.1202C29.8422 25.1202 21.2319 35.8384 21.2319 49.0602C21.2319 35.8384 12.6214 25.1202 2 25.1202Z" fill="#DBEC7F" stroke="#052E69" stroke-width="2.17" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
             
-            <div class="absolute left-[220px] top-[410px]">
+            <div class="hidden md:block absolute left-[220px] top-[410px]">
                 <svg width="42" height="51" viewBox="0 0 42 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2 25.1202C12.6214 25.1202 21.2319 14.4019 21.2319 1.18018C21.2319 14.4019 29.8422 25.1202 40.4636 25.1202C29.8422 25.1202 21.2319 35.8384 21.2319 49.0602C21.2319 35.8384 12.6214 25.1202 2 25.1202Z" fill="#000080" stroke="#052E69" stroke-width="2.17" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
 
-            <div class="absolute top-[460px] right-[300px]">
+            <div class="hidden md:block absolute top-[460px] right-[300px]">
                 <svg width="42" height="51" viewBox="0 0 42 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2 25.1202C12.6214 25.1202 21.2319 14.4019 21.2319 1.18018C21.2319 14.4019 29.8422 25.1202 40.4636 25.1202C29.8422 25.1202 21.2319 35.8384 21.2319 49.0602C21.2319 35.8384 12.6214 25.1202 2 25.1202Z" fill="white" stroke="#052E69" stroke-width="2.17" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
 
-            <div class="absolute right-0 top-[280px]">
+            <div class="hidden md:block absolute right-0 top-[280px]">
                 <svg width="42" height="51" viewBox="0 0 42 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2 25.1202C12.6214 25.1202 21.2319 14.4019 21.2319 1.18018C21.2319 14.4019 29.8422 25.1202 40.4636 25.1202C29.8422 25.1202 21.2319 35.8384 21.2319 49.0602C21.2319 35.8384 12.6214 25.1202 2 25.1202Z" fill="#FB9738" stroke="#052E69" stroke-width="2.17" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
 
-            <div class="absolute left-3 bottom-3">
+            <div class="hidden md:block absolute left-3 bottom-3">
                 <svg width="42" height="51" viewBox="0 0 42 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2 25.1202C12.6214 25.1202 21.2319 14.4019 21.2319 1.18018C21.2319 14.4019 29.8422 25.1202 40.4636 25.1202C29.8422 25.1202 21.2319 35.8384 21.2319 49.0602C21.2319 35.8384 12.6214 25.1202 2 25.1202Z" fill="#DBEC7F" stroke="#052E69" stroke-width="2.17" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -66,8 +66,8 @@
 
 
             <div>
-            <h1 class="font-semibold text-[35px] ">Take control of your finances with our <br> <span class="text-[#F16B4D]"> Budgeting </span> tool </h1>
-            <p class="font-[500] m-4">Set a budget, track your spending, and reach your financial goals with our easy-to-use budgeting  <br> app. Get alerts as you approach your budget limits and stsy on track to financial freedom. <br> Download the app now and take control of your finances</p>
+            <h1 class="font-semibold text-[26px] md:text-[35px] ">Take control of your finances with our <br> <span class="text-[#F16B4D]"> Budgeting </span> tool </h1>
+            <p class="font-[500] m-4 text-[14px] md:text-[16px]">Set a budget, track your spending, and reach your financial goals with our easy-to-use budgeting  <br class="hidden md:block"> app. Get alerts as you approach your budget limits and stsy on track to financial freedom. <br class="hidden md:block"> Download the app now and take control of your finances</p>
             </div>
 
             <div class="flex justify-center gap-3 mb-10" id="">
@@ -90,18 +90,18 @@
                 </div>
             </div>
 
-            <div class="relative flex justify-center w-[500px] mx-auto">
+            <div class="relative flex justify-center w-full max-w-[500px] px-2 mx-auto">
                 <img src="resources/Group 26086342.svg" alt="">
 
-                <div class="absolute z-[-1] right-[10px] top-[30px] rounded-t-[40px] w-[430px] h-[359px] bg-[#000080]"></div>
+                <div class="hidden md:block absolute z-[-1] right-[10px] top-[30px] rounded-t-[40px] w-[430px] h-[359px] bg-[#000080]"></div>
             </div>
         </section>
 
         <section class="relative ">
             <div class="bg-[#FACA52] h-[144px] w-[100%] absolute"></div>
-            <div class="ps-[100px] overflow-hidden bg-[#E6E6FA] flex gap-5 items-center h-[144px] -rotate-1 border -mx-2">
-                <p class="w-[15ch] font-[400] text-[32px] text-center shrink-0">In corpoation with over 100 companies</p>
-                <div class="font-medium flex gap-[30px] text-[25px]">
+            <div class="ps-4 md:ps-[100px] overflow-hidden bg-[#E6E6FA] flex gap-5 items-center h-[144px] -rotate-1 border -mx-2">
+                <p class="w-[15ch] font-[400] text-[20px] md:text-[32px] text-center shrink-0">In corpoation with over 100 companies</p>
+                <div class="font-medium flex gap-[16px] md:gap-[30px] text-[18px] md:text-[25px]">
                     <div class="w-[140px] h-[60px] border flex justify-center items-center  bg-white">facebook</div>
                     <div class="w-[140px] h-[60px] border flex justify-center items-center  bg-white">Google</div>
                     <div class="w-[140px] h-[60px] border flex justify-center items-center  bg-white">twitter</div>
@@ -111,9 +111,9 @@
             </div>
         </section>
 
-        <section class="px-[100px] bg-[#FFE5B4] py-10">
+        <section class="px-4 md:px-[100px] bg-[#FFE5B4] py-10">
             <h2>How PocketPal Works</h2>
-            <p class="w-[63ch]">
+            <p class="w-full max-w-[63ch]">
                 PocketPal simplifies the process and makes it easy for you to achieve your goals. Just sign up, set your savings target, and let our automated tools do the rest. You can earn interest on your money, track your progress, and get helpful reminders and tips to stay on track. It’s that simple!
             </p>
 
@@ -129,18 +129,18 @@
                 <div class="absolute bg-[#D1E5DF] right-[1px] bottom-[-15px] border w-[500px] h-[300px] z-[-10] rounded-[25px]"></div>
             </div> -->
 
-            <div class="relative flex flex-col flex-wrap h-[680px] justify-center font-medium">
-                <div class="z-[10] border w-[420px] h-[400px] bg-[#FFC683] rounded-[25px] mx-auto flex items-center gap-3 py-[60px] px-[20px]">
+            <div class="relative flex flex-col flex-wrap h-auto md:h-[680px] justify-center font-medium">
+                <div class="z-[10] border w-full max-w-[420px] h-auto md:h-[400px] bg-[#FFC683] rounded-[25px] mx-auto flex items-center gap-3 py-[40px] md:py-[60px] px-[20px]">
                     <img src="resources/transactions.svg" alt="">
                     <div>
                         Track your spending and see your account activity with the transaction screen. View your transactions by date, category, or amount and easily monitor your spending patterns.
                         With our intuitive design and user-friendly interface, you can quickly and easily stay on top of your financial activity
                     </div>
                 </div>
-                <div class="absolute bg-[#D1E5DF] left-[45px] top-[150px] border w-[420px] h-[400px] rounded-[25px]"></div>
+                <div class="hidden md:block absolute bg-[#D1E5DF] left-[45px] top-[150px] border w-[420px] h-[400px] rounded-[25px]"></div>
 
 
-                <div class="z-10 w-[500px] h-[300px] border bg-[#FBADA5] rounded-[25px] mx-auto my-7 py-[15px] px-[40px] flex">
+                <div class="z-10 w-full max-w-[500px] h-auto md:h-[300px] border bg-[#FBADA5] rounded-[25px] mx-auto my-7 py-[15px] px-[20px] md:px-[40px] flex flex-col md:flex-row gap-4 md:gap-0">
                     <img src="resources/budgets.svg" alt="">
 
                     <div>
@@ -149,33 +149,33 @@
                         our budgeting screen makes it easy to stay on track 
                     </div>
                 </div>
-                <div class="absolute bg-[#DCD69F] right-[30px] top-[50px] border w-[500px] h-[300px] rounded-[25px]"></div>
+                <div class="hidden md:block absolute bg-[#DCD69F] right-[30px] top-[50px] border w-[500px] h-[300px] rounded-[25px]"></div>
 
 
-                <div class="z-10 w-[500px] h-[300px] border bg-[#FBADA5] rounded-[25px] mx-auto flex items-center py-[20px] px-[20px]">
-                    <div>
+                <div class="z-10 w-full max-w-[500px] h-auto md:h-[300px] border bg-[#FBADA5] rounded-[25px] mx-auto flex flex-col md:flex-row items-center py-[20px] px-[20px] gap-4">
+                    <div class="order-2 md:order-1">
                         Never miss a beat with the alert screen. Stay informed on all your activities with real-time alerts for important events,
                         such as when you've hit a savings goal, received a payment, or have low balance. You can customize your alerts to suit your needs,
                         so you can stay on top of your finances with ease
                     </div>
 
-                    <img src="resources/notifications.svg" alt="">
+                    <img class="order-1 md:order-2" src="resources/notifications.svg" alt="">
                 </div>
-                <div class="absolute bg-[#EFF1F7] right-[45px] bottom-[-2px] border w-[500px] h-[300px] rounded-[25px]"></div>
+                <div class="hidden md:block absolute bg-[#EFF1F7] right-[45px] bottom-[-2px] border w-[500px] h-[300px] rounded-[25px]"></div>
                 
             </div>
         </section>
 
         <section class="bg-[#FCFAED] py-20">
-            <div class="flex justify-between px-[100px] gap-[100px] items-center">
-                <h2 class=" w-[18ch] shrink-0" >Enhanced financial journey at every step</h2>
-                <p class="font-medium text-[15px]">
+            <div class="flex flex-col md:flex-row justify-between px-4 md:px-[100px] gap-6 md:gap-[100px] items-center">
+                <h2 class=" w-full md:w-[18ch] shrink-0 text-center md:text-left" >Enhanced financial journey at every step</h2>
+                <p class="font-medium text-[15px] text-center md:text-left">
                     Our platform provides personalized financial guidance, tailored notifications, optimized security measures,
                     and virtual consultations with experts. We’re committed to enhancing your financial journey at every step, so you can achieve your goals with ease
                 </p>
             </div>
 
-            <div class="flex flex-wrap w-[850px] mx-auto gap-[40px] py-20">
+            <div class="flex flex-wrap w-full max-w-[850px] px-4 mx-auto gap-[20px] md:gap-[40px] py-20">
                 <div id="fbox">
                     <h3 id="features">Marketing</h3>
                     <p>Stay in the know with our marketing messages. We’ll keep you up-to-date on the latest product features, financial news, and insider tips to help you reach your goals</p>
@@ -198,35 +198,35 @@
 
         <section class="relative">
             <div class="bg-[#8DB1FD] h-[144px] w-[100%] absolute"></div>
-            <div class="ps-5 overflow-hidden bg-[#FFE6A9] flex gap-10 items-center h-[144px] rotate-1 border -mx-2">
-                <p class="font-semibold text-[40px] text-center shrink-0">Beta</p> 
+            <div class="ps-5 overflow-hidden bg-[#FFE6A9] flex gap-4 md:gap-10 items-center h-[144px] rotate-1 border -mx-2">
+                <p class="font-semibold text-[28px] md:text-[40px] text-center shrink-0">Beta</p> 
                 <div class="w-[15px] h-[15px] bg-black rounded-full"></div>
-                <div class=" flex gap-[30px] text-[22px]">
+                <div class=" flex gap-[12px] md:gap-[30px] text-[16px] md:text-[22px] px-2">
                     <p>all users who test the beta app get a 2-month discount off premium services</p>
                 </div>
                 <div class="w-[15px] h-[15px] bg-black rounded-full"></div>
-                <p class=" font-semibold text-[40px] text-center shrink-0">Beta</p>
+                <p class=" font-semibold text-[28px] md:text-[40px] text-center shrink-0">Beta</p>
                 <div class="w-[15px] h-[15px] bg-black rounded-full"></div>
             </div>
         </section>
         
-        <section class="bg-[#FFFFFF] items-center text-center py-20">
+        <section class="bg-[#FFFFFF] items-center text-center py-20 px-4">
             <h2>Testimonials</h2>
             <p>Tens of thousands of customers are building a brighter future with PocketPal</p>
 
-            <div class="w-[800px] h-[300px] bg-[#FFFAE9] mx-auto flex flex-col gap-7 items-center justify-center rounded-[30px] border-1">
-                <p class="w-[40ch] font-semibold pt-15">
+            <div class="w-full max-w-[800px] h-auto md:h-[300px] bg-[#FFFAE9] mx-auto flex flex-col gap-7 items-center justify-center rounded-[30px] border-1 px-4 py-8 md:py-0">
+                <p class="w-full max-w-[40ch] font-semibold pt-15">
                     “ Thanks to PocketPal, I’ve been able to optimize my financial journey and achieve my goals faster than I ever thought possible. The user-friendly interface and exceptional customer support makes managing my finances a breeze.”
                 </p>
                 <span class="text-[#65C8CF]">-Tom S.</span>
             </div>
         </section>
 
-        <section class="bg-[#FCE374] py-10 h-[1000px] " id="faq">
+        <section class="bg-[#FCE374] py-10 " id="faq">
             <div class="border-2 w-[100%] mb-[50px]"></div>
 
-            <div class="flex justify-around">
-                <div class="flex flex-col h-[auto]">
+            <div class="flex flex-col md:flex-row justify-around gap-8 px-4">
+                <div class="flex flex-col h-[auto] text-center md:text-left">
                     <h2>FAQ's</h2>
                     <p class="">FAQ's</p>
                 </div>
@@ -235,18 +235,18 @@
                     
                     <ol class="">
                         <h5>Is my personal information safe and secure?</h5>
-                        <li class="w-[55ch] ">
+                        <li class="w-full max-w-[55ch] ">
                             <div class="faq-no">1</div>
                             Yes, we take the security of your personal information very seriously. Our platform utilizes advanced security measures to protect your data and prevent unauthorized access
                         </li>
                         <h5>Can I access my account from multiple devices?</h5>
-                        <li class="w-[45ch]">
+                        <li class="w-full max-w-[45ch]">
                             <div class="faq-no">2</div>
                             Yes, you can access your account from any device with an internet connection
                         </li>
                         
                         <h5>What kind of financial guidance do you provide?</h5>
-                        <li class="w-[52ch]">
+                        <li class="w-full max-w-[52ch]">
                             <div class="faq-no">3</div>
                             Our financial guidance is tailored to your specific needs and goals. Whether you're looking to save for a major purchase or invest for the future, we’ll provide personalized advice to help you achieve your objectives 
                         </li>
@@ -260,8 +260,8 @@
     
 
     <footer>
-        <div class="w-[75%] bg-[#F4A460] h-[350px] mx-auto border border-black rounded-[20px] text-black flex justify-around ">
-            <div class="flex flex-col justify-center gap-[40px]">
+        <div class="w-[95%] md:w-[75%] bg-[#F4A460] h-auto md:h-[350px] mx-auto border border-black rounded-[20px] text-black flex flex-col md:flex-row justify-around px-4 py-8 md:py-0">
+            <div class="flex flex-col justify-center gap-[20px] md:gap-[40px]">
             <h2 class="w-[15ch]">Available Now on Each Platform!</h2>
             <div class="flex gap-3 mb-10" id="">
                 <div class="border-1 w-[140px] bg-[#fbaca5] flex items-center">
@@ -284,13 +284,13 @@
             </div>
             </div>
 
-            <div class="flex flex-row items-end"> 
+            <div class="flex flex-row items-end justify-center md:justify-start gap-2"> 
                 <img class="h-[200px]" src="resources/iphone account.svg" alt="">
-                <img src="resources/iphone login.svg" alt="">
+                <img class="h-[200px] md:h-auto" src="resources/iphone login.svg" alt="">
             </div>
         </div>
 
-        <div class="flex gap-[150px] ps-[100px]">
+        <div class="flex flex-col md:flex-row gap-8 md:gap-[150px] px-4 md:ps-[100px]">
             <div class="font-semibold text-white">
                 <h3>PocketPal</h3>
             </div>
@@ -332,7 +332,7 @@
 
         <div class="border-2 w-[100%] mb-[20px] mt-[40px]"></div>
 
-        <div class="flex justify-between px-[100px]">
+        <div class="flex flex-col md:flex-row gap-4 md:gap-0 justify-between px-4 md:px-[100px] text-center md:text-left">
             <div>2022 PocketPal All Rights Reserved</div>
             <div class="flex gap-3" id="socials">
                 <div >
